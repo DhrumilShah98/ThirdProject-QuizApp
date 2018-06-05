@@ -1,0 +1,69 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">@dimen/padding_all_title</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?android:textAppearanceLarge</item>
+        <item name="android:textColor">@color/title</item>
+    </style>
+
+    <style name="example">
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/option_general</item>
+        <item name="android:textColorHint">@color/option_general</item>
+        <item name="android:layout_marginLeft">@dimen/left_margin_ans</item>
+    </style>
+    <style name="question_general">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/question_general</item>
+        <item name="android:layout_marginLeft">@dimen/left_margin_que</item>
+        <item name="android:layout_marginTop">@dimen/top_margin_que</item>
+
+    </style>
+    <style name="option_general">
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/option_general</item>
+        <item name="android:layout_marginLeft">@dimen/left_margin_ans</item>
+    </style>
+
+     <style name="submit">
+         <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_margin">@dimen/padding_all_submit</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+
+    <!-- activity_result.xml-->
+
+    <style name="result_text_view_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#C62828</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="restart_exit">
+        <item name="android:background">@color/button_background</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

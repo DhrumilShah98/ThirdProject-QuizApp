@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--title styling-->
+    <dimen name="padding_all_title">12dp</dimen>
+    <dimen name="title_margin">6dp</dimen>
+
+    <!--example and option_general styling-->
+    <dimen name="left_margin_ans">15dp</dimen>
+
+    <!--question_general styling-->
+    <dimen name="left_margin_que">12dp</dimen>
+    <dimen name="top_margin_que">6dp</dimen>
+
+    <!--submit styling-->
+    <dimen name="padding_all_submit">6dp</dimen>
+
+    <!--space between questions-->
+    <dimen name="spacing_between_que">12dp</dimen>
+
+    <!--   activity_result.xml   -->
+    <dimen name="text_view_1_top_margin">12dp</dimen>
+    <dimen name="text_view_2_bottom_margin">32dp</dimen>
+    <dimen name="text_view_3_top_margin">32dp</dimen>
+    <dimen name="image_view_padding">6dp</dimen>
+
+    <dimen name="restart_margin_top">32dp</dimen>
+    <dimen name="exit_margin_top">16dp</dimen>
+    <dimen name="exit_margin_bottom">16dp</dimen>
+</resources>

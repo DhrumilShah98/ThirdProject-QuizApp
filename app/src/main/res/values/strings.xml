@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="marvel_description">Image of lego marvel heroes and villains. </string>
+
+    <string name="title">Quiz-Marvel Comics And Movies</string>
+    <string name="question1">
+        1. Arrange Movies in order of their arrival\n\n
+        &#160;&#160;1. Captain America: The First Avenger\n
+        &#160;&#160;2. The Incredible Hulk\n
+        &#160;&#160;3. Iron Man 3\n
+        &#160;&#160;4. Captain America: The Winter Soldier\n
+        &#160;&#160;5. Iron Man 2\n
+        &#160;&#160;6. The Avengers\n
+        &#160;&#160;7. Iron Man 1\n
+        &#160;&#160;Answer must be in form of numbers\n&#160;&#160;(Eg. 3247651)
+    </string>
+    <string name="enter_answer">Enter Answer: </string>
+    <string name="example">Example: 3247651</string>
+
+    <string name="question2">2. Who is Matt Murdock?</string>
+    <string name="q2_op1">Spider-Man</string>
+    <string name="q2_op2">Ant Man</string>
+    <string name="q2_op3">The Thing</string>
+    <string name="q2_op4">Daredevil</string>
+
+    <string name="question3">3. Who is Scott Summers?</string>
+    <string name="q3_op1">Wonder Man</string>
+    <string name="q3_op2">Hawkeye</string>
+    <string name="q3_op3">Cyclops</string>
+    <string name="q3_op4">Power Man</string>
+
+    <string name="question4">4. Who is Professor X(In the Movies)?</string>
+    <string name="q4_op1">James McAvoy</string>
+    <string name="q4_op2">Ian McKellen</string>
+    <string name="q4_op3">Patrick Stewart</string>
+    <string name="q4_op4">Michael Fassbender</string>
+
+    <string name="question5">5. Who is Victor Von Doom?</string>
+    <string name="q5_op1">Hate Mongor</string>
+    <string name="q5_op2">Baren Zemo</string>
+    <string name="q5_op3">Dr Doom</string>
+    <string name="q5_op4">Red Skull</string>
+
+    <string name="question6">6. Who is Dr. Donald Blake?</string>
+    <string name="q6_op1">Thor</string>
+    <string name="q6_op2">Doctor Strange</string>
+    <string name="q6_op3">Yellow Jacket</string>
+    <string name="q6_op4">The Beast</string>
+
+    <string name="question7">7. Who is Quick Silver(In the Movies)?</string>
+    <string name="q7_op1">Ezra Miller</string>
+    <string name="q7_op2">Evan Peters</string>
+    <string name="q7_op3">Grant Gustin</string>
+    <string name="q7_op4"> Aaron Taylor-Johnson</string>
+
+    <string name="question8">8. Who is Dr. Bruce Banner?</string>
+    <string name="q8_op1">The Incredible Hulk</string>
+    <string name="q8_op2">The Uncanny Ice Man</string>
+    <string name="q8_op3">The Invincible Iron Man</string>
+    <string name="q8_op4">The Werewolf By Night</string>
+
+    <string name="question9">9. Who is Norin Radd?</string>
+    <string name="q9_op1">Iron Fist</string>
+    <string name="q9_op2">Vision</string>
+    <string name="q9_op3">Silver Surfer</string>
+    <string name="q9_op4">Captain Marvel</string>
+
+    <string name="question10">10. Who is Marc Spector?</string>
+    <string name="q10_op1">Moon Knight</string>
+    <string name="q10_op2">The Shroud</string>
+    <string name="q10_op3">Man Thing</string>
+    <string name="q10_op4">Jack Of Hearts</string>
+
+    <string name="submit">submit</string>
+
+    <string name="attempt_all_ques">YOU MUST ATTEMPT ALL THE QUESTIONS</string>
+
+    <!-- - - - - - - - - - - - - - - - - -  ResultActivity - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <string name="result">Result</string>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!--IF RESULT IS LESS THAN OR EQUAL TO 35-->
+    <string name="tv1_a">OHH CRAP!! YOUR SCORE IS</string>
+    <string name="tv1_b">TOO BAD! YOU MUST READ COMICS AND WATCH MOVIES</string>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!--IF RESULT IS GREATER THAN 35 AND LESS THAN OR EQUAL TO 50-->
+    <string name="tv2_a">YOUR SCORE IS</string>
+    <string name="tv2_b">I SUGGEST YOU MUST DIG IN A LITTLE MORE</string>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!--IF RESULT IS GREATER THAN 50 AND LESS THAN OR EQUAL TO 75-->
+    <string name="tv3_a">YOUR SCORE IS</string>
+    <string name="tv3_b">YOU CAN REALLY ACHIEVE BETTER THAN THIS</string>
+
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <!--IF RESULT IS GREATER THAN 75-->
+    <string name="tv4_a">HOLLY SHIT!!!</string>
+    <string name="tv4_b">YOU ARE A TRUE MARVEL FAN &lt;3</string>
+
+    <string name="from_hundred">/100</string>
+    <string name="restart">Restart</string>
+    <string name="exit">Exit</string>
+</resources>

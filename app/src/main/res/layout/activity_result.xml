@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/result_sheet_color"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_view_1"
+            style="@style/result_text_view_style"
+            android:layout_marginTop="@dimen/text_view_1_top_margin"
+            android:textSize="26sp"
+            tools:text="OHH CRAP!! YOUR SCORE IS" />
+
+        <TextView
+            android:id="@+id/text_view_2"
+            style="@style/result_text_view_style"
+            android:layout_marginBottom="@dimen/text_view_2_bottom_margin"
+            android:textSize="26sp"
+            tools:text="20/100" />
+
+        <ImageView
+            android:id="@+id/image_view_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="@dimen/image_view_padding"
+            android:scaleType="centerCrop"
+            android:src="@drawable/frowning"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/text_view_3"
+            style="@style/result_text_view_style"
+            android:layout_marginTop="@dimen/text_view_3_top_margin"
+            android:textSize="26sp"
+            tools:text="TOO BAD! YOU MUST READ COMICS AND WATCH MOVIES" />
+
+        <Button
+            style="@style/restart_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/restart_margin_top"
+            android:onClick="restart"
+            android:text="@string/restart" />
+
+        <Button
+            style="@style/restart_exit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/exit_margin_bottom"
+            android:layout_marginTop="@dimen/exit_margin_top"
+            android:onClick="exit"
+            android:text="@string/exit" />
+    </LinearLayout>
+</ScrollView>
