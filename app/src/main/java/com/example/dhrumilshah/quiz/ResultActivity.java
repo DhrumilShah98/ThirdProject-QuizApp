@@ -47,12 +47,16 @@ public class ResultActivity extends AppCompatActivity {
     private void displayResult() {
         if (mFinalScore <= 35) {
             displayFinalResult(R.string.tv1_a, R.drawable.frowning, R.string.tv1_b);
+            Toast.makeText(this, getString(R.string.tv1_a) +"  " + mFinalScore  +"  " +  getString(R.string.from_hundred)  + "  " +  getString(R.string.tv1_b), Toast.LENGTH_SHORT).show();
         } else if (mFinalScore > 35 && mFinalScore <= 50) {
             displayFinalResult(R.string.tv2_a, R.drawable.slightly_smiling, R.string.tv2_b);
+            Toast.makeText(this, getString(R.string.tv2_a) +"  " + mFinalScore  +"  " +  getString(R.string.from_hundred)  + "  " +  getString(R.string.tv2_b), Toast.LENGTH_SHORT).show();
         } else if (mFinalScore > 50 && mFinalScore <= 75) {
             displayFinalResult(R.string.tv3_a, R.drawable.sunglasses, R.string.tv3_b);
+            Toast.makeText(this, getString(R.string.tv3_a) +"  " + mFinalScore +"  " + getString(R.string.from_hundred)  + "  " +  getString(R.string.tv3_b), Toast.LENGTH_SHORT).show();
         } else {
             displayFinalResult(R.string.tv4_a, R.drawable.heart_shaped_eyes, R.string.tv4_b);
+            Toast.makeText(this, getString(R.string.tv4_a) + "  " + mFinalScore +"  " + getString(R.string.from_hundred)  + "  " +   getString(R.string.tv4_b), Toast.LENGTH_SHORT).show();
         }
     }
 
